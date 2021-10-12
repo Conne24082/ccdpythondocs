@@ -32,8 +32,8 @@ while True:
         pos = mc.player.getTilePos()
         mc.setBlocks(pos.x-7, pos.y-5, pos.z-7, pos.x+7, pos.y+6, pos.z+7, 0)
     if GPIO.input(19) == GPIO.LOW:
-        mc.postToChat("Who has entered my realm?")
+        mc.postToChat("Kekw")
         time.sleep(1)
     if GPIO.input(26) == GPIO.LOW:
-        mc.postToChat("Kekw!")
+        mc.postToChat("Nice work!")
         time.sleep(1)
